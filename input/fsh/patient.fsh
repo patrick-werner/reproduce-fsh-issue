@@ -7,7 +7,7 @@ Parent:         MedicationDispense
 * performer.actor.identifier only IdentifierProfile
 
 Instance: TestInstance
-InstanceOf: TestProfil2
+InstanceOf: TestProfile
 * performer.actor.identifier.value = "123456789"
 * status = #final
 * medicationCodeableConcept.coding = http://terminology.hl7.org/CodeSystem/data-absent-reason#not-applicable
@@ -15,5 +15,4 @@ InstanceOf: TestProfil2
 Instance: TestInstanceExternalProfile
 InstanceOf: TestProfile2
 * performer.actor.identifier.value = "123456789"
-
-
+* whenPrepared = "2021-01-20T13:47:00Z"
